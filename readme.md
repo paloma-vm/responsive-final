@@ -1,3 +1,6 @@
+# My notes
+- I had add px to the image dimensions because the inspector was giving me wierd values and the breakpoints were off (still the case?)
+
 # Final Assessment
 
 We have a new image editing app. Your job is to style it, make it responsive and as accessible as you can. 

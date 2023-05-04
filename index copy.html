@@ -4,20 +4,19 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="styles.css" rel="stylesheet">
 	<title>Final Assessment</title>
 </head>
 <body>
 	
-	<main class="container">
-		<div class="wrapper">
-			<form class="slider-form">
+	<div class="container">
+		<div>
+			<form>
 				<label>
 					<span>Hue Rotate</span>
 					<input id="hue" type="range" min="0" max="360" value="0" />
 				</label>
 				
-				<label for="blur">
+				<label>
 					<span>Blur</span>
 					<input id="blur" type="range" min="0" max="40" value="0" />
 				</label>
@@ -32,9 +31,9 @@
 					<input id="saturation" type="range" min="0" max="200" value="100" />
 				</label>
 			</form>
+			<img src="./dali.png" width="400" height="400"/>
 		</div>
-		<img src="./dali.png" width="400px" height="400px" alt="a gallery of four painted portraits of Salvador Dali arranged in a 2 by 2 grid"/>
-	</main>
+	</div>
 
 
 	<script>
